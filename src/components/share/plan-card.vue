@@ -53,7 +53,6 @@ defineProps({
     font-family: Inter;
     font-size: 16px;
     justify-content: left;
-    gap: 2px;
     color: #181818;
     align-items: center;
     margin: 10px 0px;
