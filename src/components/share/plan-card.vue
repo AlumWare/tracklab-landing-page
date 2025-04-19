@@ -29,7 +29,7 @@ defineProps({
     justify-content: center;
     align-items: center;
     width: 268px;
-    height: 272px;
+    height: 310px;
     padding: 12px;
     background-color: #fff;
     border-radius: 20px;
@@ -43,11 +43,17 @@ defineProps({
     text-align: center;
   }
 
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
   .card-text {
     font-family: Inter;
     font-size: 16px;
     justify-content: left;
-    gap: 4px;
+    gap: 2px;
     color: #181818;
     align-items: center;
     margin: 10px 0px;
