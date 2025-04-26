@@ -9,6 +9,7 @@ import MainBenefits from "@/components/sections/main-benefits.vue";
 import Faq from "@/components/sections/faq.vue";
 import Footer from "@/components/sections/footer.vue";
 import Contact from "@/components/sections/contact.vue";
+import ForWhom from "@/components/sections/for-whom.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Contact from "@/components/sections/contact.vue";
     <problem-solution></problem-solution>
     <main-benefits></main-benefits>
     <how-it-works></how-it-works>
+    <for-whom></for-whom>
     <choose-plan></choose-plan>
     <faq></faq>
     <Contact />
