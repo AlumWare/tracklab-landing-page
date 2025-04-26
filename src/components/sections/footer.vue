@@ -10,12 +10,12 @@
       <div class="footer__section">
         <h3 class="footer__heading">Links</h3>
         <ul class="footer__links">
-          <li><a href="#" class="footer__link">Sobre nosotros</a></li>
-          <li><a href="#" class="footer__link">Beneficios</a></li>
-          <li><a href="#" class="footer__link">¿Cómo funciona?</a></li>
-          <li><a href="#" class="footer__link">Planes</a></li>
-          <li><a href="#" class="footer__link">Contacto</a></li>
-          <li><a href="#" class="footer__link">FAQ</a></li>
+          <li><a href="#sobre-nosotros" class="footer__link">Sobre nosotros</a></li>
+          <li><a href="#beneficios" class="footer__link">Beneficios</a></li>
+          <li><a href="#como-funciona" class="footer__link">¿Cómo funciona?</a></li>
+          <li><a href="#planes" class="footer__link">Planes</a></li>
+          <li><a href="#contacto" class="footer__link">Contacto</a></li>
+          <li><a href="#preguntas-frecuentes" class="footer__link">FAQ</a></li>
         </ul>
       </div>
       

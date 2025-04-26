@@ -16,7 +16,7 @@ import PlanCard from "@/components/share/plan-card.vue";
           text2="✔ Hasta 50 pedidos/mes"
           text3="✔ Soporte dedicado"
           text4="✔ Dashboard básico"
-          :price="9990"
+          :price="100"
       ></plan-card>
       <plan-card
           title="Premium"
@@ -24,7 +24,7 @@ import PlanCard from "@/components/share/plan-card.vue";
           text2="✔ 500 pedidos/mes"
           text3="✔ Dashboard avanzado"
           text4="✔ Soporte preferencial"
-          :price="24990"
+          :price="250"
           :featured="true"
       ></plan-card>
       <plan-card
@@ -33,7 +33,7 @@ import PlanCard from "@/components/share/plan-card.vue";
           text2="✔ Envíos ilimitados"
           text3="✔ Soporte dedicado"
           text4="✔ Integraciones personalizadas"
-          :price="100000"
+          :price="500"
       ></plan-card>
     </div>
   </div>
