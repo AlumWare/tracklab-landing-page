@@ -59,9 +59,12 @@ export default {
 
 <style scoped>
 .contact-section {
-  padding: 5rem 1rem;
-  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-top: 100px;
+  background-color: var(--neutral-white);
+  position: relative;
 }
+
 
 .contact-section__container {
   display: flex;

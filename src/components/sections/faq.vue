@@ -73,14 +73,9 @@ export default {
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: var(--primary-blue);
+  background-color: var(--neutral-white);
   border-radius: 0 0 50% 50%;
   z-index: 1;
-}
-
-.faq-section::after {
-  bottom: -60px;
-  transform: translateY(50%);
 }
 
 .container {

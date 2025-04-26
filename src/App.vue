@@ -17,13 +17,13 @@ import ForWhom from "@/components/sections/for-whom.vue";
     <landing-header></landing-header>
     <hero-section></hero-section>
     <about-us></about-us>
+    <for-whom></for-whom>
     <problem-solution></problem-solution>
     <main-benefits></main-benefits>
     <how-it-works></how-it-works>
-    <for-whom></for-whom>
     <choose-plan></choose-plan>
-    <faq></faq>
     <Contact />
+    <faq></faq>
     <Footer />
   </div>
 </template>
