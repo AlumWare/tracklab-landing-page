@@ -7,6 +7,7 @@ import LandingHeader from "@/components/sections/landing-header.vue";
 import AboutUs from "@/components/sections/about-us.vue";
 import MainBenefits from "@/components/sections/main-benefits.vue";
 import Faq from "@/components/sections/faq.vue";
+import Footer from "@/components/sections/footer.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Faq from "@/components/sections/faq.vue";
     <how-it-works></how-it-works>
     <choose-plan></choose-plan>
     <faq></faq>
+    <Footer />
   </div>
 </template>
 
