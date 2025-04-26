@@ -11,12 +11,12 @@ import MainBenefits from "@/components/sections/main-benefits.vue";
 <template>
   <div class="container">
     <landing-header></landing-header>
+    <hero-section></hero-section>
     <about-us></about-us>
     <problem-solution></problem-solution>
     <main-benefits></main-benefits>
-    <choose-plan></choose-plan>
-    <hero-section></hero-section>
     <how-it-works></how-it-works>
+    <choose-plan></choose-plan>
   </div>
 </template>
 
