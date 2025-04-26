@@ -58,27 +58,24 @@ export default {
 
 <style scoped>
 .faq-section {
+  min-height: 100vh;
   padding: 4rem 1rem;
-  background-color: #42A5FF;
-  background-image: linear-gradient(45deg, #4dabf7 0%, #3a8af7 100%);
+  background-color: var(--primary-blue);
+  background-image: linear-gradient(45deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
   position: relative;
-  overflow: hidden;
-}
-
-.faq-section::before,
-.faq-section::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 120px;
-  background-color: #fff;
-  color: #000;
-  border-radius: 50%;
+  padding-top: 100px;
 }
 
 .faq-section::before {
-  top: -60px;
-  transform: translateY(-50%);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--primary-blue);
+  border-radius: 0 0 50% 50%;
+  z-index: 1;
 }
 
 .faq-section::after {

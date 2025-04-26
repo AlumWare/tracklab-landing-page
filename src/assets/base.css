@@ -7,7 +7,6 @@
   --vt-c-black: #181818;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
-
   --vt-c-indigo: #2c3e50;
 
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
@@ -19,6 +18,39 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  /* Primary Colors */
+  --primary-blue: #42A5FF;
+  --primary-blue-dark: #0072CE;
+  --primary-blue-light: #4dabf7;
+  
+  /* Secondary Colors */
+  --secondary-navy: #18558F;
+  --secondary-navy-light: #1a6ab3;
+  
+  /* Accent Colors */
+  --accent-orange: #FF6B00;
+  --accent-green: #00C853;
+  --accent-red: #FF3D00;
+  
+  /* Neutral Colors */
+  --neutral-white: #FFFFFF;
+  --neutral-gray-100: #F5F7FA;
+  --neutral-gray-200: #E5E7EB;
+  --neutral-gray-300: #D1D5DB;
+  --neutral-gray-400: #9CA3AF;
+  --neutral-gray-500: #6B7280;
+  --neutral-gray-600: #4B5563;
+  --neutral-gray-700: #374151;
+  --neutral-gray-800: #1F2937;
+  --neutral-gray-900: #111827;
+  --neutral-black: #000000;
+  
+  /* Semantic Colors */
+  --success: var(--accent-green);
+  --warning: var(--accent-orange);
+  --error: var(--accent-red);
+  --info: var(--primary-blue);
 }
 
 /* semantic color variables for this project */
