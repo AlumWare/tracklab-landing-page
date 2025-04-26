@@ -18,11 +18,12 @@
 
 <style scoped>
 section.sobre-nosotros {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 60px 30px;
+  padding-top: 100px;
   flex-wrap: wrap;
   background: #fff;
 }
