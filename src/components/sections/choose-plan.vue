@@ -62,7 +62,7 @@ import PlanCard from "@/components/share/plan-card.vue";
     left: 0;
     width: 100%;
     height: 100px;
-    background-color: #f5f7fa;
+    background-color: var(--neutral-white);
     border-radius: 0 0 50% 50%;
   }
 
