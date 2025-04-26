@@ -59,7 +59,7 @@ export default {
 <style scoped>
 .faq-section {
   padding: 4rem 1rem;
-  background-color: #4dabf7;
+  background-color: #42A5FF;
   background-image: linear-gradient(45deg, #4dabf7 0%, #3a8af7 100%);
   position: relative;
   overflow: hidden;
