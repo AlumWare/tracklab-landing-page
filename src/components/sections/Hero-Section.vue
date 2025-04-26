@@ -53,7 +53,7 @@
   background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
   position: relative;
   overflow: hidden;
-  padding: 4rem 2rem;
+  padding: calc(80px + 4rem) 2rem 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,6 +348,30 @@
 
   .botones {
     justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: calc(70px + 2rem) 1rem 2rem;
+  }
+
+  .titulo-tracklab {
+    font-size: 4rem;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .botones {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
 
