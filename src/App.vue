@@ -8,6 +8,7 @@ import AboutUs from "@/components/sections/about-us.vue";
 import MainBenefits from "@/components/sections/main-benefits.vue";
 import Faq from "@/components/sections/faq.vue";
 import Footer from "@/components/sections/footer.vue";
+import Contact from "@/components/sections/contact.vue";
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import Footer from "@/components/sections/footer.vue";
     <how-it-works></how-it-works>
     <choose-plan></choose-plan>
     <faq></faq>
+    <Contact />
     <Footer />
   </div>
 </template>
