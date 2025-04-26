@@ -16,14 +16,14 @@ import ForWhom from "@/components/sections/for-whom.vue";
   <div class="container">
     <landing-header></landing-header>
     <hero-section></hero-section>
-    <about-us></about-us>
-    <for-whom></for-whom>
-    <problem-solution></problem-solution>
-    <main-benefits></main-benefits>
-    <how-it-works></how-it-works>
-    <choose-plan></choose-plan>
-    <Contact />
-    <faq></faq>
+    <about-us id="sobre-nosotros"></about-us>
+    <for-whom id="para-quien"></for-whom>
+    <problem-solution id="problema-solucion"></problem-solution>
+    <main-benefits id="beneficios"></main-benefits>
+    <how-it-works id="como-funciona"></how-it-works>
+    <choose-plan id="planes"></choose-plan>
+    <Contact id="contacto"></Contact>
+    <faq id="preguntas-frecuentes"></faq>
     <Footer />
   </div>
 </template>
