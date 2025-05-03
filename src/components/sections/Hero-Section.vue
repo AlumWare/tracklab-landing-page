@@ -2,6 +2,9 @@
   <section class="hero">
     <div class="hero-content">
       <div class="hero-left">
+        <div class="language-container">
+          <language-switcher></language-switcher>
+        </div>
         <span class="badge">Innovación en Logística</span>
         <h2 class="subtitulo">Trazabilidad logística en tiempo real</h2>
         <h1 class="titulo-tracklab">TrackLab</h1>
@@ -85,6 +88,7 @@
   margin-bottom: 1.5rem;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
 }
 
 .subtitulo {
@@ -397,5 +401,16 @@
   .btn {
     width: 100%;
   }
+
+  .language-container {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+  }
 }
 </style>
+
+<script setup lang="ts">
+import LanguageSwitcher from "@/components/share/language-switcher.vue";
+</script>
