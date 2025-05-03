@@ -104,6 +104,7 @@ header.hidden {
   text-decoration: none;
   transition: transform 0.3s ease;
   z-index: 100;
+  margin-right: 10px;
 }
 
 .logo:hover {
