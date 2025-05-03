@@ -75,9 +75,58 @@
     "title": "Choose a plan",
     "subtitle": "We offer multiple plans tailored to the needs of your company.",
     "basic": "Basic",
-    "basic1": "",
-    "basic2": "",
-    "basic3": "",
-    "basic4": ""
+    "basic1": "1 customer company and 1 supplier",
+    "basic2": "Up to 50 orders/month",
+    "basic3": "Dedicated support",
+    "basic4": "Basic dashboard",
+    "premium": "Premium",
+    "premium1": "Up to 5 connected companies",
+    "premium2": "500 orders/month",
+    "premium3": "Advanced dashboard",
+    "premium4": "Preferred support",
+    "enterprise": "Enterprise",
+    "enterprise1": "Unlimited companies",
+    "enterprise2": "Unlimited shipments",
+    "enterprise3": "Dedicated support",
+    "enterprise4": "Custom integrations",
+    "select": "select"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "send"
+  },
+  "q&a": {
+    "q1": "What do I need to use the app?",
+    "r1": "To use our app, all you need is a device with an internet connection (smartphone, tablet, or computer) and create a free account. No additional installation is required, as it works directly from the web browser.",
+    "q2": "Can I connect my company with multiple customers or suppliers?",
+    "r2": "Yes, our platform is designed to allow your company to connect with multiple customers and suppliers simultaneously. You can manage all these relationships from a single dashboard, making communication and collaboration easier.",
+    "q3": "Does it integrate with other platforms?",
+    "r3": "Our app integrates with a wide variety of popular platforms and services, including CRM systems, accounting tools, e-commerce platforms, and more. If you need a specific integration, contact our support team to check availability or request its development.",
+    "q4": "Do you offer support or training?",
+    "r4": "We provide full technical support through multiple channels (chat, email, and phone) during business hours. Additionally, we offer free training resources such as video tutorials, detailed guides, and regular webinars to help you make the most of all the features of our platform."
+  },
+  "contact2": {
+    "title": "Contact us:",
+    "subtitle": "You can also reach out to us via social media, email, or phone number. We will answer all your questions."
+  },
+  "footer": {
+    "register": "Register",
+    "account": "Create your account",
+    "us": "About us",
+    "benefits": "Benefits",
+    "how": "How it works",
+    "plans": "Plans",
+    "contact": "Contact",
+    "politics": "Privacy politics",
+    "terms": "Terms and conditions"
+  },
+  "options": {
+    "us": "About us",
+    "benefits": "Benefits",
+    "how": "How does it work?",
+    "contact": "Contact"
   }
 }
