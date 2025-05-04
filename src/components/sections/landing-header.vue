@@ -46,10 +46,10 @@ onUnmounted(() => {
 
       <!-- Desktop Navigation -->
       <div class="nav-links" :class="{ 'show': isMenuOpen }">
-        <a href="#sobre-nosotros" class="nav-link" @click="closeMenu">Sobre nosotros</a>
-        <a href="#beneficios" class="nav-link" @click="closeMenu">Beneficios</a>
-        <a href="#como-funciona" class="nav-link" @click="closeMenu">¿Cómo funciona?</a>
-        <a href="#contacto" class="nav-link contact-btn" @click="closeMenu">Contactar</a>
+        <a href="#sobre-nosotros" class="nav-link" @click="closeMenu">{{ $t('options.us') }}</a>
+        <a href="#beneficios" class="nav-link" @click="closeMenu">{{ $t('options.benefits') }}</a>
+        <a href="#como-funciona" class="nav-link" @click="closeMenu">{{ $t('options.how') }}</a>
+        <a href="#contacto" class="nav-link contact-btn" @click="closeMenu">{{ $t('options.contact') }}</a>
       </div>
 
       <!-- Hamburger Button -->

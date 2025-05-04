@@ -8,9 +8,9 @@
       
       <div class="contact-section__info-column">
         <div class="contact-section__info-card">
-          <h3 class="contact-section__info-title">Contactate con nosotros:</h3>
+          <h3 class="contact-section__info-title">{{ $t('contact2.title') }}</h3>
           <p class="contact-section__info-text">
-            También puede comunicarse con nosotros a través de redes sociales, correo o número de celular. Responderemos todas las dudas que tenga.
+            {{ $t('contact2.subtitle') }}
           </p>
           
           <div class="contact-section__contact-item">

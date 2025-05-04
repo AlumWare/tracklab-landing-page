@@ -5,39 +5,39 @@
         <div class="language-container">
           <language-switcher></language-switcher>
         </div>
-        <span class="badge">Innovación en Logística</span>
-        <h2 class="subtitulo">Trazabilidad logística en tiempo real</h2>
+        <span class="badge">{{ $t('header.innovation') }}</span>
+        <h2 class="subtitulo">{{ $t('header.traceability') }}</h2>
         <h1 class="titulo-tracklab">TrackLab</h1>
         <p class="descripcion">
-          Revoluciona tu logística con seguimiento en tiempo real, análisis inteligente y gestión eficiente de envíos.
+          {{ $t('header.revolutionize') }}
         </p>
         <div class="stats">
           <div class="stat-item">
             <span class="stat-number">99%</span>
-            <span class="stat-label">Precisión</span>
+            <span class="stat-label">{{ $t('header.precision') }}</span>
           </div>
           <div class="stat-item">
             <span class="stat-number">24/7</span>
-            <span class="stat-label">Monitoreo</span>
+            <span class="stat-label">{{ $t('header.monitoring') }}</span>
           </div>
           <div class="stat-item">
             <span class="stat-number">+500</span>
-            <span class="stat-label">Empresas</span>
+            <span class="stat-label">{{ $t('header.companies') }}</span>
           </div>
         </div>
       </div>
       <div class="hero-right">
         <div class="content-box">
-          <h2 class="titulo-derecha">Enfocado en eficiencia y seguridad</h2>
-          <p class="descripcion">Únete a las empresas que ya optimizaron su logística con TrackLab</p>
+          <h2 class="titulo-derecha">{{ $t('header.focused') }}</h2>
+          <p class="descripcion">{{ $t('header.join') }}</p>
           <div class="botones">
-            <button class="btn btn-primary">Solicitar Demo</button>
-            <button class="btn btn-secondary">Contacto</button>
+            <button class="btn btn-primary">{{ $t('header.request') }}</button>
+            <button class="btn btn-secondary">{{ $t('header.contact') }}</button>
           </div>
           <div class="trust-indicators">
-            <span>🔒 Datos Seguros</span>
-            <span>🚀 Implementación Rápida</span>
-            <span>💡 Soporte 24/7</span>
+            <span>{{ '🔒' + $t('header.security') }}</span>
+            <span>{{ '🚀' + $t('header.implementation') }}</span>
+            <span>{{ '💡' + $t('header.support') }}</span>
           </div>
         </div>
       </div>

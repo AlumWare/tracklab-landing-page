@@ -1,6 +1,6 @@
 <template>
   <section class="how-it-works">
-    <h2 class="section-title">¿Cómo funciona TrackLab?</h2>
+    <h2 class="section-title">{{ $t('how.title') }}</h2>
     <div class="content">
       <div class="video-box">
         <div v-if="!videoVisible" class="video-placeholder" @click="showVideo">
@@ -20,20 +20,20 @@
       </div>
       <div class="steps">
         <div class="step">
-          <strong>Paso 1: Registrá a tu empresa y tus usuarios</strong>
-          <p>Tanto proveedores como clientes se registran desde la app.</p>
+          <strong>{{ $t('how.step1') }}</strong>
+          <p>{{ $t('how.desc1') }}</p>
         </div>
         <div class="step">
-          <strong>Paso 2: Solicitá o recibí un pedido de envío</strong>
-          <p>El cliente crea una solicitud y la empresa proveedora la visualiza en su panel.</p>
+          <strong>{{ $t('how.step2') }}</strong>
+          <p>{{ $t('how.desc2') }}</p>
         </div>
         <div class="step">
-          <strong>Paso 3: Gestioná y prepará la carga</strong>
-          <p>El proveedor confirma que el pedido está listo y documenta todo digitalmente.</p>
+          <strong>{{ $t('how.step3') }}</strong>
+          <p>{{ $t('how.desc3') }}.</p>
         </div>
         <div class="step">
-          <strong>Paso 4: Confirmá la entrega</strong>
-          <p>Una vez entregado, el cliente valida la recepción. Todo queda registrado.</p>
+          <strong>{{ $t('how.step4') }}</strong>
+          <p>{{ $t('how.desc4') }}</p>
         </div>
       </div>
     </div>

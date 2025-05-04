@@ -6,10 +6,10 @@
   <section class="sobre-nosotros">
     <div class="content-wrapper">
       <div class="texto">
-        <h2>Sobre nosotros</h2>
+        <h2>{{ $t('about.title') }}</h2>
         <div class="text-content">
-          <p>En TrackLab creemos que cada envío importa. Desarrollamos una plataforma que une a empresas proveedoras y clientes en un ecosistema logístico inteligente, donde cada movimiento queda registrado y cada entrega tiene seguimiento.</p>
-          <p>Conectamos procesos, personas y paquetes a través de tecnología intuitiva, para que la logística deje de ser una preocupación y se convierta en una ventaja competitiva.</p>
+          <p>{{ $t('about.us1') }}</p>
+          <p>{{ $t('about.us2') }}</p>
         </div>
       </div>
 

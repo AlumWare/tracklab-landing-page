@@ -1,7 +1,7 @@
 <template>
   <section class="faq-section">
     <div class="container">
-      <h2 class="section-title">Preguntas Frecuentes</h2>
+      <h2 class="section-title">{{ $t('q&a.title') }}</h2>
       <div class="faq-container">
         <extension-panel 
           title="1. ¿Qué necesito para usar la app?"

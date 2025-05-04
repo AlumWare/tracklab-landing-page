@@ -5,35 +5,35 @@
       <img src="../../assets/truck.png" alt="Logistics illustration" class="feature-image"/>
     </div>
     <div class="text-container">
-      <h2 class="title">Problemática y Solución</h2>
+      <h2 class="title">{{ $t('p&a.title') }}</h2>
       <div class="problems">
-        <h3 class="section-subtitle">Problemas comunes:</h3>
+        <h3 class="section-subtitle">{{ $t('p&a.subtitle') }}</h3>
         <ul class="problems-list">
           <li>
             <span class="problem-icon">❌</span>
-            <span>Pérdida de productos o paquetes sin rastreo</span>
+            <span>{{ $t('p&a.loss') }}</span>
           </li>
           <li>
             <span class="problem-icon">⏱️</span>
-            <span>Tiempos muertos por falta de trazabilidad</span>
+            <span>{{ $t('p&a.time') }}</span>
           </li>
           <li>
             <span class="problem-icon">📝</span>
-            <span>Errores en entregas o documentación manual</span>
+            <span>{{ $t('p&a.mistakes') }}</span>
           </li>
           <li>
             <span class="problem-icon">👥</span>
-            <span>Falta de visibilidad entre áreas internas</span>
+            <span>{{ $t('p&a.visibility') }}</span>
           </li>
           <li>
             <span class="problem-icon">💰</span>
-            <span>Costo operativo innecesario</span>
+            <span>{{ $t('p&a.cost') }}</span>
           </li>
         </ul>
       </div>
       <div class="solution">
-        <h3 class="section-subtitle">Nuestra solución:</h3>
-        <p class="solution-text">Con TrackLab centralizás toda tu operación logística en una plataforma ágil, intuitiva y en tiempo real. Desde el escaneo de códigos hasta reportes automáticos, AlumWare te muestra todo lo que ocurre.</p>
+        <h3 class="section-subtitle">{{ $t('p&a.solution') }}</h3>
+        <p class="solution-text">{{ $t('p&a.description') }}</p>
       </div>
     </div>
   </div>
