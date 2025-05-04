@@ -62,6 +62,7 @@
     "history1": "Forget about paperwork. Every operation is archived and available whenever you need it."
   },
   "how": {
+    "title": "How does TrackLab work?",
     "step1": "Step 1: Register your company and users",
     "desc1": "Both suppliers and customers register through the app.",
     "step2": "Step 2: Request or receive a shipment order",
@@ -99,14 +100,7 @@
     "send": "send"
   },
   "q&a": {
-    "q1": "What do I need to use the app?",
-    "r1": "To use our app, all you need is a device with an internet connection (smartphone, tablet, or computer) and create a free account. No additional installation is required, as it works directly from the web browser.",
-    "q2": "Can I connect my company with multiple customers or suppliers?",
-    "r2": "Yes, our platform is designed to allow your company to connect with multiple customers and suppliers simultaneously. You can manage all these relationships from a single dashboard, making communication and collaboration easier.",
-    "q3": "Does it integrate with other platforms?",
-    "r3": "Our app integrates with a wide variety of popular platforms and services, including CRM systems, accounting tools, e-commerce platforms, and more. If you need a specific integration, contact our support team to check availability or request its development.",
-    "q4": "Do you offer support or training?",
-    "r4": "We provide full technical support through multiple channels (chat, email, and phone) during business hours. Additionally, we offer free training resources such as video tutorials, detailed guides, and regular webinars to help you make the most of all the features of our platform."
+    "title": "Questions and Answers"
   },
   "contact2": {
     "title": "Contact us:",
