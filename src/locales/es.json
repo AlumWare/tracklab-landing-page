@@ -1,26 +1,132 @@
 {
   "header": {
-    "innovation": "Innovation in Logistics",
-    "traceability": "Real-time logistics traceability",
-    "revolutionize": "Revolutionize your logistics with real-time tracking, intelligent analysis, and efficient shipment management.",
-    "precision": "PRECISION",
-    "monitoring": "MONITORING",
-    "companies": "COMPANIES",
-    "focused": "Focused on efficiency and security",
-    "join": "Join the companies that have already optimized their logistics with TrackLab.",
-    "request": "Request Demo",
-    "contact": "Contact",
-    "security": "Data Security",
-    "implementation": "Fast implementation",
-    "support": "24/7 support"
+    "innovation": "Innovación en Logística",
+    "traceability": "Trazabilidad logística en tiempo real",
+    "revolutionize": "Revoluciona tu logística con seguimiento en tiempo real, análisis inteligente y gestión eficiente de envíos.",
+    "precision": "PRECISIÓN",
+    "monitoring": "MONITOREO",
+    "companies": "EMPRESAS",
+    "focused": "Enfocado en eficiencia y seguridad",
+    "join": "Únete a las empresas que ya optimizaron su logística con TrackLab",
+    "request": "Solicitar Demo",
+    "contact": "Contacto",
+    "security": "Datos seguros",
+    "implementation": "Implementación rápida",
+    "support": "Soporte 24/7"
   },
   "about": {
-    "title": "About us",
-    "us1": "At TrackLab, we believe that every shipment matters. We have developed a platform that connects suppliers and customers in an intelligent logistics ecosystem, where every movement is recorded, and every delivery is tracked.",
+    "title": "Sobre nosotros",
+    "us1": "En TrackLab creemos que cada envío importa. Desarrollamos una plataforma que une a empresas proveedoras y clientes en un ecosistema logístico inteligente, donde cada movimiento queda registrado y cada entrega tiene seguimiento.",
     "us2": "Conectamos procesos, personas y paquetes a través de tecnología intuitiva, para que la logística deje de ser una preocupación y se convierta en una ventaja competitiva."
   },
   "who": {
-    "title": "Who is TrackLab for?",
-    "subtitle": "Our platform is designed for various roles in logistics and transportation companies."
+    "title": "¿Para quién es TrackLab?",
+    "subtitle": "Nuestra plataforma está diseñada para diversos roles en empresas de logística y transporte.",
+    "carlos": {
+      "position": "Responsable de distribución en empresa de transporte",
+      "description": "Carlos coordina envíos y retiros en múltiples rutas. Tiene problemas cuando los choferes olvidan reportar entregas, y cuando los productos están en tránsito o entregados."
+    },
+    "marcela": {
+      "position": "Gerente de operaciones logísticas",
+      "description": "Marcela supervisa la cadena de suministro de toda la empresa. Necesita reportes claros y en tiempo real para optimizar rutas y reducir costos operativos."
+    },
+    "pedro": {
+      "position": "Encargado de recepción de mercadería",
+      "description": "Pedro debe validar y documentar cada recepción de productos. Necesita una forma rápida de confirmar entregas y reportar inconsistencias."
+    }
+  },
+  "p&a": {
+    "title": "Problemática y Solución",
+    "subtitle": "Problemas comunes:",
+    "loss": "Pérdida de productos o paquetes sin rastreo",
+    "time": "Tiempos muertos por falta de trazabilidad",
+    "mistakes": "Errores en entregas o documentación manual",
+    "visibility": "Falta de visibilidad entre áreas internas",
+    "cost": "Costo operativo innecesario",
+    "solution": "Nuestra solución:",
+    "description": "Con TrackLab centralizás toda tu operación logística en una plataforma ágil, intuitiva y en tiempo real. Desde el escaneo de códigos hasta reportes automáticos, AlumWare te muestra todo lo que ocurre."
+  },
+  "benefits": {
+    "title": "Beneficios principales",
+    "traceability": "Trazabilidad de extremo a extremo",
+    "traceability1": "Trazabilidad de extremo a extremo",
+    "confirmation": "",
+    "confirmation1": "",
+    "dashboard": "",
+    "dashboard1": "",
+    "register": "",
+    "register1": "",
+    "collaboration": "",
+    "collaboration1": "",
+    "history": "",
+    "history1": ""
+  },
+  "how": {
+    "step1": "",
+    "desc1": "",
+    "step2": "",
+    "desc2": "",
+    "step3": "",
+    "desc3": "",
+    "step4": "",
+    "desc4": ""
+  },
+  "plan": {
+    "title": "",
+    "subtitle": "",
+    "basic": "Basic",
+    "basic1": "",
+    "basic2": "",
+    "basic3": "",
+    "basic4": "d",
+    "premium": "Premium",
+    "premium1": "",
+    "premium2": "",
+    "premium3": "",
+    "premium4": "",
+    "enterprise": "Enterprise",
+    "enterprise1": "",
+    "enterprise2": "",
+    "enterprise3": "",
+    "enterprise4": "",
+    "select": "Seleccionar"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "q&a": {
+    "q1": "",
+    "r1": "",
+    "q2": "",
+    "r2": "",
+    "q3": "",
+    "r3": "",
+    "q4": "",
+    "r4": ""
+  },
+  "contact2": {
+    "title": "Contáctanos",
+    "subtitle": ""
+  },
+  "footer": {
+    "register": "",
+    "account": "",
+    "us": "",
+    "benefits": "",
+    "how": "",
+    "plans": "",
+    "contact": "",
+    "politics": "",
+    "terms": "T"
+  },
+  "options": {
+    "us": "",
+    "benefits": "",
+    "how": "",
+    "contact": "Contacto"
   }
 }
