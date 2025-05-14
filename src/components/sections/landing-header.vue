@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import LanguageSwitcher from '../share/language-switcher.vue'
 
 const isScrolled = ref(false)
 const lastScroll = ref(0)
@@ -50,6 +51,9 @@ onUnmounted(() => {
         <a href="#beneficios" class="nav-link" @click="closeMenu">{{ $t('options.benefits') }}</a>
         <a href="#como-funciona" class="nav-link" @click="closeMenu">{{ $t('options.how') }}</a>
         <a href="#contacto" class="nav-link contact-btn" @click="closeMenu">{{ $t('options.contact') }}</a>
+        <div class="language-switcher-container">
+          <LanguageSwitcher />
+        </div>
       </div>
 
       <!-- Hamburger Button -->
@@ -204,6 +208,12 @@ header.hidden {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.language-switcher-container {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   header {
     height: 70px;
@@ -288,6 +298,10 @@ header.hidden {
 
   .hamburger.is-active .hamburger-line {
     background: white;
+  }
+
+  .language-switcher-container {
+    margin: 1rem 0;
   }
 }
 </style>
