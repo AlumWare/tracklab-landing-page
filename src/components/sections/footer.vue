@@ -3,7 +3,7 @@
     <div class="footer__container">
       <div class="footer__section">
         <h3 class="footer__heading">{{ $t('footer.register') }}</h3>
-        <button class="footer__button">{{ $t('footer.account') }}</button>
+        <a href="https://purple-field-0abcc550f.6.azurestaticapps.net/auth/register" class="footer__button">{{ $t('footer.account') }}</a>
         <social-icons />
       </div>
       
