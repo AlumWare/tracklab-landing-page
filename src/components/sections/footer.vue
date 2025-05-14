@@ -2,25 +2,25 @@
   <footer class="footer">    
     <div class="footer__container">
       <div class="footer__section">
-        <h3 class="footer__heading">Registrate</h3>
-        <button class="footer__button">Crear Cuenta</button>
+        <h3 class="footer__heading">{{ $t('footer.register') }}</h3>
+        <button class="footer__button">{{ $t('footer.account') }}</button>
         <social-icons />
       </div>
       
       <div class="footer__section">
         <h3 class="footer__heading">Links</h3>
         <ul class="footer__links">
-          <li><a href="#sobre-nosotros" class="footer__link">Sobre nosotros</a></li>
-          <li><a href="#beneficios" class="footer__link">Beneficios</a></li>
-          <li><a href="#como-funciona" class="footer__link">¿Cómo funciona?</a></li>
-          <li><a href="#planes" class="footer__link">Planes</a></li>
-          <li><a href="#contacto" class="footer__link">Contacto</a></li>
+          <li><a href="#sobre-nosotros" class="footer__link">{{ $t('footer.us') }}</a></li>
+          <li><a href="#beneficios" class="footer__link">{{ $t('footer.benefits') }}</a></li>
+          <li><a href="#como-funciona" class="footer__link">{{ $t('footer.how') }}</a></li>
+          <li><a href="#planes" class="footer__link">{{ $t('footer.plans') }}</a></li>
+          <li><a href="#contacto" class="footer__link">{{ $t('footer.contact') }}</a></li>
           <li><a href="#preguntas-frecuentes" class="footer__link">FAQ</a></li>
         </ul>
       </div>
       
       <div class="footer__section">
-        <h3 class="footer__heading">Contacto</h3>
+        <h3 class="footer__heading">{{ $t('footer.contact') }}</h3>
         <div class="footer__contact">
           <div class="footer__contact-item">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -40,8 +40,8 @@
       <div class="footer__section">
         <h3 class="footer__heading">Legal</h3>
         <ul class="footer__links">
-          <li><a href="#" class="footer__link">Política de Privacidad</a></li>
-          <li><a href="#" class="footer__link">Términos y condiciones</a></li>
+          <li><a href="#" class="footer__link">{{ $t('footer.politics') }}</a></li>
+          <li><a href="#" class="footer__link">{{ $t('footer.terms') }}</a></li>
         </ul>
       </div>
     </div>

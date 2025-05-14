@@ -1,0 +1,126 @@
+{
+  "header": {
+    "innovation": "Innovation in Logistics",
+    "traceability": "Real-time logistics traceability",
+    "revolutionize": "Revolutionize your logistics with real-time tracking, intelligent analysis, and efficient shipment management.",
+    "precision": "PRECISION",
+    "monitoring": "MONITORING",
+    "companies": "COMPANIES",
+    "focused": "Focused on efficiency and security",
+    "join": "Join the companies that have already optimized their logistics with TrackLab.",
+    "request": "Request Demo",
+    "contact": "Contact",
+    "security": "Data Security",
+    "implementation": "Fast implementation",
+    "support": "24/7 support"
+  },
+  "about": {
+    "title": "About us",
+    "us1": "At TrackLab, we believe that every shipment matters. We have developed a platform that connects suppliers and customers in an intelligent logistics ecosystem, where every movement is recorded, and every delivery is tracked.",
+    "us2": "Conectamos procesos, personas y paquetes a través de tecnología intuitiva, para que la logística deje de ser una preocupación y se convierta en una ventaja competitiva."
+  },
+  "who": {
+    "title": "Who is TrackLab for?",
+    "subtitle": "Our platform is designed for various roles in logistics and transportation companies.",
+    "carlos": {
+      "position": "Distribution manager in a transportation company",
+      "description": "Carlos coordinates shipments and pickups across multiple routes. He faces challenges when drivers forget to report deliveries, and when products are in transit or delivered."
+    },
+    "marcela": {
+      "position": "Logistics Operations Manager",
+      "description": "Marcela oversees the entire company's supply chain. She needs clear, real-time reports to optimize routes and reduce operational costs."
+    },
+    "pedro": {
+      "position": "Goods Receiving Manager",
+      "description": "Pedro must validate and document each product receipt. He needs a quick way to confirm deliveries and report inconsistencies."
+    }
+  },
+  "p&a": {
+    "title": "Problem and Solution",
+    "subtitle": "Common Problems",
+    "loss": "Loss of products or packages without tracking",
+    "time": "Downtime due to lack of traceability",
+    "mistakes": "Errors in deliveries or manual documentation",
+    "visibility": "Lack of visibility between internal departments",
+    "cost": "Unnecessary operational costs",
+    "solution": "Our solution: ",
+    "description": "With TrackLab, you centralize your entire logistics operation in an agile, intuitive, and real-time platform. From barcode scanning to automatic reports, AlumWare shows you everything that happens."
+  },
+  "benefits": {
+    "title": "Principal benefits",
+    "traceability": "End-to-end traceability",
+    "traceability1": "View the status of each shipment, who handled it, and what was delivered.",
+    "confirmation": "Secure receipt confirmation",
+    "confirmation1": "The delivery is not complete until the customer confirms it. Everything is recorded.",
+    "dashboard": "Smart dashboard",
+    "dashboard1": "Access real-time shipment reports by status, company, or date.",
+    "register": "Digital shipment record",
+    "register1": "Create requests with photos, details, and validations directly from the app.",
+    "collaboration": "Collaboration between companies",
+    "collaboration1": "Both parties can interact and validate processes within the same app.",
+    "history": "History and automatic documentation",
+    "history1": "Forget about paperwork. Every operation is archived and available whenever you need it."
+  },
+  "how": {
+    "title": "How does TrackLab work?",
+    "step1": "Step 1: Register your company and users",
+    "desc1": "Both suppliers and customers register through the app.",
+    "step2": "Step 2: Request or receive a shipment order",
+    "desc2": "The customer creates a request, and the supplying company views it on their dashboard.",
+    "step3": "Step 3: Manage and prepare the shipment",
+    "desc3": "The supplier confirms the order is ready and documents everything digitally.",
+    "step4": "Step 4: Confirm the delivery",
+    "desc4": "Once delivered, the customer validates the receipt. Everything is recorded."
+  },
+  "plan": {
+    "title": "Choose a plan",
+    "subtitle": "We offer multiple plans tailored to the needs of your company.",
+    "basic": "Basic",
+    "basic1": "1 customer company and 1 supplier",
+    "basic2": "Up to 50 orders/month",
+    "basic3": "Dedicated support",
+    "basic4": "Basic dashboard",
+    "premium": "Premium",
+    "premium1": "Up to 5 connected companies",
+    "premium2": "500 orders/month",
+    "premium3": "Advanced dashboard",
+    "premium4": "Preferred support",
+    "enterprise": "Enterprise",
+    "enterprise1": "Unlimited companies",
+    "enterprise2": "Unlimited shipments",
+    "enterprise3": "Dedicated support",
+    "enterprise4": "Custom integrations",
+    "select": "select"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "send"
+  },
+  "q&a": {
+    "title": "Questions and Answers"
+  },
+  "contact2": {
+    "title": "Contact us:",
+    "subtitle": "You can also reach out to us via social media, email, or phone number. We will answer all your questions."
+  },
+  "footer": {
+    "register": "Register",
+    "account": "Create your account",
+    "us": "About us",
+    "benefits": "Benefits",
+    "how": "How it works",
+    "plans": "Plans",
+    "contact": "Contact",
+    "politics": "Privacy politics",
+    "terms": "Terms and conditions"
+  },
+  "options": {
+    "us": "About us",
+    "benefits": "Benefits",
+    "how": "How does it work?",
+    "contact": "Contact"
+  }
+}

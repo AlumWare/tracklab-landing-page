@@ -4,43 +4,43 @@ import BenefitCard from '../share/benefit-card.vue'
 
 <template>
   <section class="beneficios-principales">
-    <h1>Beneficios Principales</h1>
+    <h1>{{ $t('benefits.title') }}</h1>
 
     <div class="benefits-grid">
       <benefit-card
         icon="📍"
-        title="Trazabilidad de extremo a extremo"
-        description="Visualiza en qué estado está cada envío, quién lo gestionó y qué se entregó."
+        :title=" $t('benefits.traceability') "
+        :description=" $t('benefits.traceability1') "
       />
 
       <benefit-card
         icon="📦"
-        title="Confirmación segura de recepción"
-        description="La entrega no termina hasta que el cliente lo confirme. Todo queda asentado."
+        :title=" $t('benefits.confirmation') "
+        :description=" $t('benefits.confirmation1') "
       />
 
       <benefit-card
         icon="📊"
-        title="Dashboard inteligente"
-        description="Accede a reportes de envíos por estado, por empresa o por fecha en tiempo real."
+        :title=" $t('benefits.dashboard') "
+        :description=" $t('benefits.dashboard1') "
       />
 
       <benefit-card
         icon="📝"
-        title="Registro de envío digital"
-        description="Crea solicitudes con fotos, detalles y validaciones, desde la aplicación."
+        :title=" $t('benefits.register') "
+        :description=" $t('benefits.register1') "
       />
 
       <benefit-card
         icon="🤝"
-        title="Colaboración entre empresas"
-        description="Ambas partes pueden interactuar y validar procesos dentro de la misma aplicación."
+        :title=" $t('benefits.collaboration') "
+        :description=" $t('benefits.collaboration1') "
       />
 
       <benefit-card
         icon="🗂️"
-        title="Historial y documentación automática"
-        description="Olvídate del papeleo. Cada operación queda archivada y disponible cuando lo necesites."
+        :title=" $t('benefits.history') "
+        :description=" $t('benefits.history1') "
       />
     </div>
   </section>

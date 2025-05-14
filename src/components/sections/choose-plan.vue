@@ -6,33 +6,35 @@ import PlanCard from "@/components/share/plan-card.vue";
 <section class="plan-section">
   <div class="plan-container">
     <div class="title-plan">
-      <h2 class="title">ELEGÍ TU PLAN</h2>
-      <p class="subtitle">Contamos con múltiples planes acorde a las necesidades de tu empresa</p>
+      <h2 class="title">{{ $t('plan.title') }}</h2>
+      <p class="subtitle">{{ $t('plan.subtitle') }}</p>
     </div>
     <div class="cards">
       <plan-card
-          title="Básico"
-          text1="✔ 1 empresa cliente y 1 proveedora"
-          text2="✔ Hasta 50 pedidos/mes"
-          text3="✔ Soporte dedicado"
-          text4="✔ Dashboard básico"
+          :title="'Básico'"
+          :text1="$t('plan.basic1')"
+          :text2="$t('plan.basic2')"
+          :text3="$t('plan.basic3')"
+          :text4="$t('plan.basic4')"
           :price="100"
       ></plan-card>
+
       <plan-card
-          title="Premium"
-          text1="✔ Hasta 5 empresas conectadas"
-          text2="✔ 500 pedidos/mes"
-          text3="✔ Dashboard avanzado"
-          text4="✔ Soporte preferencial"
+          :title="'Premium'"
+          :text1="$t('plan.premium1')"
+          :text2="$t('plan.premium2')"
+          :text3="$t('plan.premium3')"
+          :text4="$t('plan.premium4')"
           :price="250"
           :featured="true"
       ></plan-card>
+
       <plan-card
-          title="Enterprise"
-          text1="✔ Empresas ilimitadas"
-          text2="✔ Envíos ilimitados"
-          text3="✔ Soporte dedicado"
-          text4="✔ Integraciones personalizadas"
+          :title="'Enterprise'"
+          :text1="$t('plan.enterprise1')"
+          :text2="$t('plan.enterprise2')"
+          :text3="$t('plan.enterprise3')"
+          :text4="$t('plan.enterprise4')"
           :price="500"
       ></plan-card>
     </div>

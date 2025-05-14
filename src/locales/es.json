@@ -1,0 +1,126 @@
+{
+  "header": {
+    "innovation": "Innovación en Logística",
+    "traceability": "Trazabilidad logística en tiempo real",
+    "revolutionize": "Revoluciona tu logística con seguimiento en tiempo real, análisis inteligente y gestión eficiente de envíos.",
+    "precision": "PRECISIÓN",
+    "monitoring": "MONITOREO",
+    "companies": "EMPRESAS",
+    "focused": "Enfocado en eficiencia y seguridad",
+    "join": "Únete a las empresas que ya optimizaron su logística con TrackLab",
+    "request": "Solicitar Demo",
+    "contact": "Contacto",
+    "security": "Datos seguros",
+    "implementation": "Implementación rápida",
+    "support": "Soporte 24/7"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "us1": "En TrackLab creemos que cada envío importa. Desarrollamos una plataforma que une a empresas proveedoras y clientes en un ecosistema logístico inteligente, donde cada movimiento queda registrado y cada entrega tiene seguimiento.",
+    "us2": "Conectamos procesos, personas y paquetes a través de tecnología intuitiva, para que la logística deje de ser una preocupación y se convierta en una ventaja competitiva."
+  },
+  "who": {
+    "title": "¿Para quién es TrackLab?",
+    "subtitle": "Nuestra plataforma está diseñada para diversos roles en empresas de logística y transporte.",
+    "carlos": {
+      "position": "Responsable de distribución en empresa de transporte",
+      "description": "Carlos coordina envíos y retiros en múltiples rutas. Tiene problemas cuando los choferes olvidan reportar entregas, y cuando los productos están en tránsito o entregados."
+    },
+    "marcela": {
+      "position": "Gerente de operaciones logísticas",
+      "description": "Marcela supervisa la cadena de suministro de toda la empresa. Necesita reportes claros y en tiempo real para optimizar rutas y reducir costos operativos."
+    },
+    "pedro": {
+      "position": "Encargado de recepción de mercadería",
+      "description": "Pedro debe validar y documentar cada recepción de productos. Necesita una forma rápida de confirmar entregas y reportar inconsistencias."
+    }
+  },
+  "p&a": {
+    "title": "Problemática y Solución",
+    "subtitle": "Problemas comunes:",
+    "loss": "Pérdida de productos o paquetes sin rastreo",
+    "time": "Tiempos muertos por falta de trazabilidad",
+    "mistakes": "Errores en entregas o documentación manual",
+    "visibility": "Falta de visibilidad entre áreas internas",
+    "cost": "Costo operativo innecesario",
+    "solution": "Nuestra solución:",
+    "description": "Con TrackLab centralizás toda tu operación logística en una plataforma ágil, intuitiva y en tiempo real. Desde el escaneo de códigos hasta reportes automáticos, AlumWare te muestra todo lo que ocurre."
+  },
+  "benefits": {
+    "title": "Beneficios principales",
+    "traceability": "Trazabilidad de extremo a extremo",
+    "traceability1": "Visualiza en qué estado está cada envío, quién lo gestionó y qué se entregó.",
+    "confirmation": "Confirmación segura de recepción",
+    "confirmation1": "La entrega no termina hasta que el cliente lo confirme. Todo queda asentado",
+    "dashboard": "Dashboard inteligente",
+    "dashboard1": "Accede a reportes de envíos por estado, por empresa o por fecha en tiempo real.",
+    "register": "Registro de envío digital",
+    "register1": "Crea solicitudes con fotos, detalles y validaciones, desde la aplicación.",
+    "collaboration": "Colaboración entre empresas",
+    "collaboration1": "Ambas partes pueden interactuar y validar procesos dentro de la misma aplicación.",
+    "history": "Historial y documentación automática",
+    "history1": "Olvídate del papeleo. Cada operación queda archivada y disponible cuando lo necesites"
+  },
+  "how": {
+    "title": "¿Cómo funciona TrackLab?",
+    "step1": "Paso 1: Registrá a tu empresa y tus usuarios",
+    "desc1": "Tanto proveedores como clientes se registran desde la app.",
+    "step2": "Paso 2: Solicitá o recibí un pedido de envío",
+    "desc2": "El cliente crea una solicitud y la empresa proveedora la visualiza en su panel.",
+    "step3": "Paso 3: Gestioná y prepará la carga",
+    "desc3": "El proveedor confirma que el pedido está listo y documenta todo digitalmente",
+    "step4": "Paso 4: Confirmá la entrega",
+    "desc4": "Una vez entregado, el cliente valida la recepción. Todo queda registrado."
+  },
+  "plan": {
+    "title": "ELEGÍ TU PLAN",
+    "subtitle": "Contamos con múltiples planes acorde a las necesidades de tu empresa",
+    "basic": "Basic",
+    "basic1": "✔ 1 empresa cliente y 1 proveedora",
+    "basic2": "✔ Hasta 50 pedidos/me",
+    "basic3": "✔ Soporte dedicado",
+    "basic4": "✔ Dashboard básico",
+    "premium": "Premium",
+    "premium1": "✔ Hasta 5 empresas conectadas",
+    "premium2": "✔ 500 pedidos/mes",
+    "premium3": "✔ Dashboard avanzad",
+    "premium4": "✔ Soporte preferencial",
+    "enterprise": "Enterprise",
+    "enterprise1": "✔ Empresas ilimitadas",
+    "enterprise2": "✔ Envíos ilimitados",
+    "enterprise3": "✔ Soporte dedicado",
+    "enterprise4": "✔ Integraciones personalizadas",
+    "select": "Seleccionar"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "q&a": {
+    "title": "Preguntas frecuentes"
+  },
+  "contact2": {
+    "title": "Contáctanos",
+    "subtitle": "También puede comunicarse con nosotros a través de redes sociales, correo o número de celular. Responderemos todas las dudas que tenga."
+  },
+  "footer": {
+    "register": "Registrar",
+    "account": "Crear cuenta",
+    "us": "Nosotros",
+    "benefits": "Beneficios",
+    "how": "Cómo funciona",
+    "plans": "Planes",
+    "contact": "Contacto",
+    "politics": "Políticas",
+    "terms": "Términos y condiciones"
+  },
+  "options": {
+    "us": "Nosotros",
+    "benefits": "Beneficios",
+    "how": "¿Cómo funciona?",
+    "contact": "Contacto"
+  }
+}

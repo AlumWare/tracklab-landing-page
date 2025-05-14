@@ -5,30 +5,31 @@ import ForWhomCard from "@/components/share/for-whom-card.vue";
 <template>
   <section class="for-whom-section">
     <div class="section-container">
-      <h2 class="section-title">¿Para quién es TrackLab?</h2>
-      <p class="section-description">Nuestra plataforma está diseñada para diversos roles en empresas de logística y transporte.</p>
+      <h2 class="section-title">{{ $t('who.title') }}</h2>
+      <p class="section-description">{{ $t('who.subtitle') }}</p>
       
       <div class="cards-container">
         <for-whom-card
-          name="Carlos"
-          role="Responsable de distribución en empresa de transporte"
-          description="Carlos coordina envíos y retiros en múltiples rutas. Tiene problemas cuando los choferes olvidan reportar entregas, y cuando los productos están en tránsito o entregados."
-          imageSrc="/src/assets/truck.png"
+            :name="'Carlos'"
+            :role="$t('who.carlos.position')"
+            :description="$t('who.carlos.description')"
+            :imageSrc="'/src/assets/truck.png'"
         />
-        
+
         <for-whom-card
-          name="Marcela"
-          role="Gerente de operaciones logísticas"
-          description="Marcela supervisa la cadena de suministro de toda la empresa. Necesita reportes claros y en tiempo real para optimizar rutas y reducir costos operativos."
-          imageSrc="/src/assets/truck.png"
+            :name="'Marcela'"
+            :role="$t('who.marcela.position')"
+            :description="$t('who.marcela.description')"
+            :imageSrc="'/src/assets/truck.png'"
         />
-        
+
         <for-whom-card
-          name="Pedro"
-          role="Encargado de recepción de mercadería"
-          description="Pedro debe validar y documentar cada recepción de productos. Necesita una forma rápida de confirmar entregas y reportar inconsistencias."
-          imageSrc="/src/assets/truck.png"
+            :name="'Pedro'"
+            :role="$t('who.pedro.position')"
+            :description="$t('who.pedro.description')"
+            :imageSrc="'/src/assets/truck.png'"
         />
+
       </div>
     </div>
   </section>
