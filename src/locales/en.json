@@ -130,5 +130,15 @@
     "benefits": "Benefits",
     "how": "How does it work?",
     "contact": "Contact"
+  },
+  "questions": {
+    "q1": "1. What do I need to use the app?",
+    "a1": "To use our application, you only need a device with internet connection (smartphone, tablet, or computer) and to create a free account. No additional installation is required since it works directly from the web browser.",
+    "q2": "2. Can I connect my company with multiple clients or suppliers?",
+    "a2": "Yes, our platform is designed to allow your company to connect with multiple clients and suppliers simultaneously. You can manage all these relationships from a single control panel, which makes communication and collaboration easier.",
+    "q3": "3. Does it integrate with other platforms?",
+    "a3": "Our application integrates with a wide variety of popular platforms and services, including CRM systems, accounting tools, e-commerce platforms, and more. If you need a specific integration, contact our support team to check availability or request development.",
+    "q4": "4. Do you offer support or training?",
+    "a4": "We offer full technical support through multiple channels (chat, email, and phone) during business hours. Additionally, we provide free training resources such as video tutorials, detailed guides, and regular webinars so you can make the most of all the features of our platform."
   }
 }

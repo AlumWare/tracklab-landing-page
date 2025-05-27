@@ -4,41 +4,31 @@
       <h2 class="section-title">{{ $t('q&a.title') }}</h2>
       <div class="faq-container">
         <extension-panel 
-          title="1. ¿Qué necesito para usar la app?"
+          :title="$t('questions.q1')"
           :initially-open="false"
         >
-          <p>Para usar nuestra aplicación solo necesitas un dispositivo con conexión a internet 
-          (smartphone, tablet o computadora) y crear una cuenta gratuita. No se requiere ninguna 
-          instalación adicional ya que funciona directamente desde el navegador web.</p>
+          <p>{{ $t('questions.a1') }}</p>
         </extension-panel>
 
-        <extension-panel 
-          title="2. ¿Puedo conectar mi empresa con varios clientes o proveedores?"
+        <extension-panel
+          :title="$t('questions.q2')"
           :initially-open="false"
         >
-          <p>Sí, nuestra plataforma está diseñada para permitir que tu empresa se conecte con múltiples 
-          clientes y proveedores simultáneamente. Puedes gestionar todas estas relaciones desde un 
-          único panel de control, lo que facilita la comunicación y la colaboración.</p>
+          <p>{{ $t('questions.a2') }}</p>
         </extension-panel>
 
-        <extension-panel 
-          title="3. ¿Tiene integración con otras plataformas?"
-          :initially-open="false"
+        <extension-panel
+            :title="$t('questions.q3')"
+            :initially-open="false"
         >
-          <p>Nuestra aplicación se integra con una amplia variedad de plataformas y servicios populares,
-          incluyendo sistemas CRM, herramientas de contabilidad, plataformas de e-commerce y más.
-          Si necesitas una integración específica, contacta con nuestro equipo de soporte para verificar
-          la disponibilidad o solicitar su desarrollo.</p>
+          <p>{{ $t('questions.a3') }}</p>
         </extension-panel>
 
-        <extension-panel 
-          title="4. ¿Ofrecen soporte o capacitación?"
-          :initially-open="false"
+        <extension-panel
+            :title="$t('questions.q4')"
+            :initially-open="false"
         >
-          <p>Ofrecemos soporte técnico completo a través de múltiples canales (chat, email y teléfono)
-          durante horas laborables. Además, proporcionamos recursos de capacitación gratuitos como 
-          tutoriales en video, guías detalladas y webinars regulares para que puedas aprovechar al
-          máximo todas las funcionalidades de nuestra plataforma.</p>
+          <p>{{ $t('questions.a4') }}</p>
         </extension-panel>
       </div>
     </div>
