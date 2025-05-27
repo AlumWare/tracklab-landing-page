@@ -5,7 +5,7 @@
         type="text" 
         v-model="name" 
         class="contact-form__input" 
-        placeholder="Nombre"
+        :placeholder="$t('contact-form.name')"
         required
       />
     </div>
@@ -15,7 +15,7 @@
         type="email" 
         v-model="email" 
         class="contact-form__input" 
-        placeholder="Email"
+        :placeholder="$t('contact-form.email')"
         required
       />
     </div>
@@ -24,7 +24,7 @@
       <textarea 
         v-model="message" 
         class="contact-form__textarea" 
-        placeholder="Mensaje"
+        :placeholder="$t('contact-form.message')"
         rows="5"
         required
       ></textarea>
@@ -36,7 +36,7 @@
         class="contact-form__button"
         :disabled="isSubmitting"
       >
-        {{ isSubmitting ? 'Enviando...' : 'Enviar' }}
+        {{ isSubmitting ? $t('contact-form.sending') : $t('contact-form.send') }}
       </button>
     </div>
   </form>

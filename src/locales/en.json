@@ -103,8 +103,16 @@
     "title": "Questions and Answers"
   },
   "contact2": {
+    "Contact": "Contact",
     "title": "Contact us:",
     "subtitle": "You can also reach out to us via social media, email, or phone number. We will answer all your questions."
+  },
+  "contact-form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending..."
   },
   "footer": {
     "register": "Register",

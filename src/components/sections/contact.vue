@@ -2,7 +2,7 @@
   <section class="contact-section">
     <div class="contact-section__container">
       <div class="contact-section__form-column">
-        <h2 class="contact-section__title">Contacto</h2>
+        <h2 class="contact-section__title">{{ $t('contact2.Contact') }}</h2>
         <contact-form @form-submitted="handleFormSubmit" />
       </div>
       

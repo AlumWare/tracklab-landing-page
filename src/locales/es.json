@@ -103,8 +103,16 @@
     "title": "Preguntas frecuentes"
   },
   "contact2": {
+    "Contact": "Contacto",
     "title": "Contáctanos",
     "subtitle": "También puede comunicarse con nosotros a través de redes sociales, correo o número de celular. Responderemos todas las dudas que tenga."
+  },
+  "contact-form": {
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando..."
   },
   "footer": {
     "register": "Registrar",
