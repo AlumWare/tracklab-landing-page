@@ -69,8 +69,11 @@ export default {
 .contact-section__container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1400px;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  padding: 5%;
   gap: 2rem;
 }
 
