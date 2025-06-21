@@ -14,142 +14,135 @@ defineProps({
 </script>
 
 <template>
-  <div class="card-container" :class="{ 'featured': featured }">
-    <div class="featured-badge" v-if="featured">Popular</div>
-    <p class="card-title">{{ title }}</p>
-    <div class="text-container">
-      <p class="card-text">{{ text1 }}</p>
-      <p class="card-text">{{ text2 }}</p>
-      <p class="card-text">{{ text3 }}</p>
-      <p class="card-text">{{ text4 }}</p>
+  <div class="plan-card" :class="{ 'featured': featured }">
+    <div class="plan-header">
+      <h3 class="plan-title">{{ title }}</h3>
+      <div class="plan-price">
+        <span class="currency">$</span>
+        <span class="amount">{{ price }}</span>
+        <span class="period">/mes</span>
+      </div>
     </div>
-    <div class="card-price-container">
-      <div class="card-price">{{ 'S/ ' + price }}</div>
-      <button class="select-btn">Seleccionar</button>
-    </div>
+    <ul class="plan-features">
+      <li>{{ text1 }}</li>
+      <li>{{ text2 }}</li>
+      <li>{{ text3 }}</li>
+      <li>{{ text4 }}</li>
+    </ul>
+    <a href="https://purple-field-0abcc550f.6.azurestaticapps.net/auth/register" class="plan-button">{{ $t('plan.select') }}</a>
   </div>
 </template>
 
 <style scoped>
-  .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 300px;
-    min-height: 380px;
-    padding: 24px;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
-    position: relative;
-    border: 1px solid #f0f0f0;
-  }
+.plan-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
 
-  .card-container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-  }
+.plan-card.featured {
+  transform: scale(1.05);
+  border: 2px solid var(--primary-blue);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
 
-  .featured {
-    border: 2px solid #42A5FF;
-    transform: scale(1.05);
-  }
+.plan-header {
+  text-align: center;
+}
 
-  .featured:hover {
-    transform: translateY(-5px) scale(1.2);
-  }
+.plan-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
 
-  .featured-badge {
-    position: absolute;
-    top: -12px;
-    right: 20px;
-    background-color: #42A5FF;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 4px 12px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(66, 165, 255, 0.3);
-  }
+.plan-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.2rem;
+}
 
-  .card-title {
-    font-family: Inter, sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: #181818;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.currency {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+}
 
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10px;
-    flex-grow: 1;
-  }
+.amount {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-blue);
+  line-height: 1;
+}
 
-  .card-text {
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    color: #181818;
-    align-items: center;
-    margin: 12px 0px;
-    position: relative;
-    padding-left: 5px;
-  }
+.period {
+  font-size: 1rem;
+  color: var(--neutral-gray-600);
+}
 
-  .card-price-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
-  .card-price {
-    font-family: Inter, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #181818;
-    text-align: center;
-    background-color: rgba(66, 165, 255, 0.15);
-    border-radius: 12px;
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 15px;
-  }
+.plan-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--neutral-gray-700);
+  font-size: 1rem;
+}
 
-  .select-btn {
-    background-color: #42A5FF;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 12px 24px;
-    font-family: Inter, sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    width: 100%;
-  }
+.plan-features li::before {
+  content: '✓';
+  color: var(--primary-blue);
+  font-weight: bold;
+}
 
-  .select-btn:hover {
-    background-color: #3089d8;
-    transform: scale(1.05);
-  }
+.plan-button {
+  background: var(--primary-blue);
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
 
-  @media (max-width: 768px) {
-    .card-container {
-      width: 90%;
-      max-width: 300px;
-    }
-    
-    .featured {
-      transform: scale(1);
-    }
-    
-    .featured:hover {
-      transform: translateY(-5px) scale(1);
-    }
+.plan-button:hover {
+  background: var(--primary-blue-dark);
+  transform: translateY(-2px);
+}
+
+.featured .plan-button {
+  background: var(--primary-blue-dark);
+}
+
+.featured .plan-button:hover {
+  background: var(--primary-blue);
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    padding: 1.5rem;
   }
+  
+  .plan-card.featured {
+    transform: none;
+  }
+}
 </style>

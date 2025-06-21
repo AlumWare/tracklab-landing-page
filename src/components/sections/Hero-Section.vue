@@ -31,8 +31,8 @@
           <h2 class="titulo-derecha">{{ $t('header.focused') }}</h2>
           <p class="descripcion">{{ $t('header.join') }}</p>
           <div class="botones">
-            <button class="btn btn-primary">{{ $t('header.request') }}</button>
-            <button class="btn btn-secondary">{{ $t('header.contact') }}</button>
+            <a href="https://purple-field-0abcc550f.6.azurestaticapps.net/auth/register" class="btn btn-primary">{{ $t('header.request') }}</a>
+            <a href="https://purple-field-0abcc550f.6.azurestaticapps.net/auth/login" class="btn btn-secondary">{{ $t('header.contact') }}</a>
           </div>
           <div class="trust-indicators">
             <span>{{ '🔒' + $t('header.security') }}</span>
